@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🗄️ Superstore Sales & Profitability Analysis — SQL Server
+# 🗄️ Superstore Sales Analysis — SQL Server
 
 ### End-to-end T-SQL analysis diagnosing why sales grew every year while profit stagnated and declined
 
@@ -8,7 +8,6 @@
 [![T-SQL](https://img.shields.io/badge/T--SQL-CTEs%20%7C%20Views%20%7C%20Window%20Functions-217346?style=for-the-badge)](#)
 [![Analysis](https://img.shields.io/badge/Modules-9%20Analysis%20Areas-blue?style=for-the-badge)](#)
 [![Dataset](https://img.shields.io/badge/Dataset-Superstore%20Kaggle-orange?style=for-the-badge)](#)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](#-license)
 [![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)](#)
 
 </div>
@@ -48,8 +47,7 @@ This project uses the same Superstore dataset as my [Excel](https://github.com/s
 |---|---|
 | **Microsoft SQL Server** | Database engine, schema design, data storage |
 | **T-SQL** | CTEs, Views, Window Functions (LAG, ROW_NUMBER, RANK, running totals), Subqueries |
-| **SSMS** | Script development and execution |
-| **CSV (Sample Superstore)** | Source dataset |
+
 
 ---
 
@@ -79,7 +77,7 @@ Before any analysis, the dataset is validated to confirm it's fit for business u
 - **Duplicate check** — confirms `RowID` uniquely identifies every record
 - **Null check** — across all key transactional columns (Sales, Profit, Discount, Quantity, dates, IDs)
 - **Invalid value check** — negative sales/quantities, out-of-range discounts, ship dates earlier than order dates
-- **Date range validation** — confirms the dataset spans January 2014 to December 2017
+- **Date range validation** — confirms the dataset spans January 2014 to December 2017 (Some shipdates upto January 2018)
 - **Primary Key constraint** — `RowID` is enforced as the Primary Key on the working copy table
 
 No data quality issues were found — the dataset is complete and suitable for sales, customer, product, profitability, and operational analysis.
@@ -91,8 +89,7 @@ No data quality issues were found — the dataset is complete and suitable for s
 ```
 sql-superstore-sales-analysis/
 │
-├── superstore-sql-analysis.sql   # Full T-SQL script (setup → validation → 9 analysis modules → insights)
-├── images/                        # (optional) query result screenshots, schema diagram
+├── SQL-Sales-Analysis-Project-SQLServer.sql   # Full T-SQL script (setup → validation → 9 analysis modules → insights)
 └── README.md
 ```
 
@@ -100,13 +97,9 @@ sql-superstore-sales-analysis/
 
 ## 🚀 How to Use
 
-1. Clone this repository
-   ```bash
-   git clone https://github.com/shivanand-Mathapati-Analyst/sql-superstore-sales-analysis.git
-   ```
-2. Open `superstore-sql-analysis.sql` in **SQL Server Management Studio (SSMS)**
-3. Import the Sample Superstore CSV into a table named `Sales.superstore` in a new database (the script creates the database and schema — you'll need to load the source CSV into the base table before running the validation/analysis sections)
-4. Run the script section by section — each block is commented and independent, so you can execute one analysis module at a time
+1. Open `superstore-sql-analysis.sql` in **SQL Server Management Studio (SSMS)**
+2. Import the Sample Superstore CSV into a table named `Sales.superstore` in a new database (the script creates the database and schema — you'll need to load the source CSV into the base table before running the validation/analysis sections)
+3. Run the script section by section — each block is commented and independent, so you can execute one analysis module at a time
 
 ---
 
@@ -190,11 +183,10 @@ sql-superstore-sales-analysis/
 
 ## 👤 Author
 
-**Shivanand S. Mathapati**
-Data Analyst | Power BI Developer
+**Shivanand S Mathapati**
 
-- 🌐 Portfolio: [shivanand-mathapati.vercel.app](https://shivanand-mathapati.vercel.app)
-- ✉️ Email: shivanandmathapati350@gmail.com
+- 🌐 Portfolio: 
+- ✉️ Email: 
 
 ---
 
