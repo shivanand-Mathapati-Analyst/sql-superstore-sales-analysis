@@ -2,7 +2,7 @@
 
 # 🗄️ Superstore Sales Analysis — SQL Server
 
-### End-to-end T-SQL analysis diagnosing why sales grew every year while profit stagnated and declined
+### End-to-end T-SQL analysis to uncover sales trends, profitability issues, and business insights
 
 [![Tool](https://img.shields.io/badge/Tool-Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)](#)
 [![T-SQL](https://img.shields.io/badge/T--SQL-CTEs%20%7C%20Views%20%7C%20Window%20Functions-217346?style=for-the-badge)](#)
