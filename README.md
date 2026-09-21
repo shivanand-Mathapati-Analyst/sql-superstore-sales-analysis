@@ -37,7 +37,9 @@ This project is an **end-to-end T-SQL analysis** of the classic **Sample Superst
 
 Every query in the script is followed by a plain-English insight comment, so the script reads like a guided analysis rather than a pile of disconnected queries — and closes with a full Business Problem → Key Insights → Root Causes → Recommendations writeup, the same way a real analytics deliverable would.
 
-This project uses the same Superstore dataset as my [Excel](https://github.com/shivanand-Mathapati-Analyst/excel-superstore-sales-analysis) and [Power BI](https://github.com/shivanand-Mathapati-Analyst/powerbi-superstore-sales-analysis) dashboards — showing the same business problem solved across three different tools.
+**This project is part of a three-tool analytics portfolio built on the same Superstore dataset.**
+
+This project uses the same Superstore dataset as my [Excel](https://github.com/shivanand-Mathapati-Analyst/excel-superstore-sales-analysis) and [Power BI](https://github.com/shivanand-Mathapati-Analyst/powerbi-superstore-sales-analysis) projects, demonstrating how the same business problem can be analyzed and solved using three different analytics tools: SQL Server, Excel, and Power BI.
 
 ---
 
