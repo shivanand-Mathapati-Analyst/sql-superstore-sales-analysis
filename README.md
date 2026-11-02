@@ -26,6 +26,7 @@
 - [Key Insights (Summary)](#-key-insights-summary)
 - [Root Cause Analysis](#-root-cause-analysis)
 - [Actionable Recommendations](#-actionable-recommendations)
+- [Related Projects](#-related-projects)
 - [Author](#-author)
 - [License](#-license)
 
