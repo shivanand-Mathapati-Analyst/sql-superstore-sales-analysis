@@ -207,8 +207,8 @@ Customer Segmentation Analysis, Built on three tools using UK based Online Retai
 
 **Shivanand S Mathapati**
 
-- 🌐 Portfolio:
-- LinkedIn: 
+- 🌐 Portfolio: 
+- 💼 LinkedIn: 
 - ✉️ Email: 
 
 ---
