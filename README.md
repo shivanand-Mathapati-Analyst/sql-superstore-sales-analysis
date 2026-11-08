@@ -21,7 +21,6 @@
 - [Script Structure](#-script-structure)
 - [Data Validation](#-data-validation)
 - [Repository Structure](#-repository-structure)
-- [How to Use](#-how-to-use)
 - [Business Problem](#-business-problem)
 - [Key Insights (Summary)](#-key-insights-summary)
 - [Root Cause Analysis](#-root-cause-analysis)
@@ -95,14 +94,6 @@ sql-superstore-sales-analysis/
 ├── SQL-Sales-Analysis-Project-SQLServer.sql   # Full T-SQL script (setup → validation → 9 analysis modules → insights)
 └── README.md
 ```
-
----
-
-## 🚀 How to Use
-
-1. Open `superstore-sql-analysis.sql` in **SQL Server Management Studio (SSMS)**
-2. Import the Sample Superstore CSV into a table named `Sales.superstore` in a new database (the script creates the database and schema — you'll need to load the source CSV into the base table before running the validation/analysis sections)
-3. Run the script section by section — each block is commented and independent, so you can execute one analysis module at a time
 
 ---
 
