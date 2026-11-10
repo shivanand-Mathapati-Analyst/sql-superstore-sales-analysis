@@ -177,20 +177,30 @@ sql-superstore-sales-analysis/
 
 ## 🔗 Related Projects
 
-Part of a multi-tool Superstore Sales Analysis, built on the same Sample Superstore dataset:
+### 📦 Superstore Sales Analysis: Sample Superstore dataset
+
+Part of a multi-tool Superstore Sales Analysis, built on the same dataset:
 
 | Project | Tool | Link |
 |---|---|---|
-| 📊 Superstore Sales Analysis | Power BI | [github.com/shivanand-Mathapati-Analyst/powerbi-sales-analysis-project](https://github.com/shivanand-Mathapati-Analyst/powerbi-superstore-sales-analysis) |
-| 📗 Superstore Sales Analysis | Excel | [github.com/shivanand-Mathapati-Analyst/excel-superstore-sales-analysis](https://github.com/shivanand-Mathapati-Analyst/excel-superstore-sales-analysis) |
+| 📊 Superstore Sales Analysis | Power BI | [powerbi-superstore-sales-analysis](https://github.com/shivanand-Mathapati-Analyst/powerbi-superstore-sales-analysis) |
+| 📗 Superstore Sales Analysis | Excel | [excel-superstore-sales-analysis](https://github.com/shivanand-Mathapati-Analyst/excel-superstore-sales-analysis) |
 
-Customer Segmentation Analysis, Built on three tools using UK based Online Retail dataset
+### 🛒 Customer Segmentation (RFM Analysis): UK Online Retail dataset
+
+Built in three tools on the same dataset:
 
 | Project | Tool | Link |
 |---|---|---|
-| 📗 Customer Segmentation Analysis | Excel | [github.com/shivanand-Mathapati-Analyst/excel-customer-segmentation-analysis-project](https://github.com/shivanand-Mathapati-Analyst/excel-customer-segmentation-analysis)|
-| 📊 Customer Segmentation Analysis | Power BI | [github.com/shivanand-Mathapati-Analyst/powerbi-customer-segmentation-analysis-project](https://github.com/shivanand-Mathapati-Analyst/powerbi-customer-segmentation-analysis) |
-| 🗄️ Customer Segmentation Analysis (this same dataset) | SQL Server | [github.com/shivanand-Mathapati-Analyst/sql-customer-segmentation-analysis-project](https://github.com/shivanand-Mathapati-Analyst/sql-customer-segmentation-analysis) |
+| 📗 Customer Segmentation Analysis | Excel | [excel-customer-segmentation-analysis](https://github.com/shivanand-Mathapati-Analyst/excel-customer-segmentation-analysis) |
+| 📊 Customer Segmentation Analysis | Power BI | [powerbi-customer-segmentation-analysis](https://github.com/shivanand-Mathapati-Analyst/powerbi-customer-segmentation-analysis) |
+| 🗄️ Customer Segmentation Analysis | SQL Server | [sql-customer-segmentation-analysis](https://github.com/shivanand-Mathapati-Analyst/sql-customer-segmentation-analysis) |
+
+### 👥 HR Analytics: Employee Attrition, Workforce & Compensation Analysis
+
+| Project | Tool | Link |
+|---|---|---|
+| 👥 HR Analytics: Attrition, Workforce & Compensation | SQL Server + Power BI | [hr-analytics-attrition-sql-powerbi](https://github.com/shivanand-Mathapati-Analyst/hr-attrition-analytics-sql-powerbi) |
 
 ---
 
